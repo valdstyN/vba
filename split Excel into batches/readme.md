@@ -1,6 +1,4 @@
-<h2>Code</h2>
-
-
-<h2>Form</h2>
-UserForm1.frm
-![image](https://user-images.githubusercontent.com/4015046/196540270-44cd1965-febd-409c-8987-30b26e1f1493.png)
+<h2>How does it work?</h2>
+1. Select a range excluding the header(s), e.g. A2 to A10000.
+2. The script will split in <i>n</i> batches; either X files of N records or N files of X records.
+3. The output files will re-use the original headers.
