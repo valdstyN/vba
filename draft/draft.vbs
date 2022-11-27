@@ -1,4 +1,7 @@
 Sub arr()
+    
+    ' store scenarios in dictionary to avoid having to loop through scenarios to get variables
+    ' sc("0")=[grilles,...]
 
     ' enable Microsoft Scripting Runtime
     Dim emp As Dictionary
