@@ -41,10 +41,10 @@ Sub arr()
                 curDt = thisDt
                 curSc = thisSc
                 GoTo applySc    ' we stop as soon as we find a scenario to apply with a higher/equal date
-            End If
-            
-applySc:
-        Next dt
+            End If           
+       Next dt
+    applySc:
+    __funcLoadVariablesFromSc(curSc) ' load all variables
     'next e
 
 End Sub
